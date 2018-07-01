@@ -1,0 +1,9 @@
+C:\Users\Imran Rizvi\documents\visual studio 2010\Projects\ProjectManagmentSystem\ProjectManagmentSystem\bin\ProjectManagmentSystem.dll
+C:\Users\Imran Rizvi\documents\visual studio 2010\Projects\ProjectManagmentSystem\ProjectManagmentSystem\bin\ProjectManagmentSystem.pdb
+C:\Users\Imran Rizvi\documents\visual studio 2010\Projects\ProjectManagmentSystem\ProjectManagmentSystem\obj\Debug\ProjectManagmentSystem.dll
+C:\Users\Imran Rizvi\documents\visual studio 2010\Projects\ProjectManagmentSystem\ProjectManagmentSystem\obj\Debug\ProjectManagmentSystem.pdb
+E:\ProjectManagmentSystem\ProjectManagmentSystem\bin\ProjectManagmentSystem.dll
+E:\ProjectManagmentSystem\ProjectManagmentSystem\bin\ProjectManagmentSystem.pdb
+E:\ProjectManagmentSystem\ProjectManagmentSystem\obj\Debug\ProjectManagmentSystem.dll
+E:\ProjectManagmentSystem\ProjectManagmentSystem\obj\Debug\ProjectManagmentSystem.pdb
+E:\ProjectManagmentSystem\ProjectManagmentSystem\obj\Debug\ProjectManagmentSystem.csprojResolveAssemblyReference.cache

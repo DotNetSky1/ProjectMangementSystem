@@ -1,0 +1,91 @@
+﻿#header .bg-help { background: url('images/header-in.png') 50% 0 no-repeat; padding:1px 0; width:100%; min-height:60px;}
+#header { background: #001328 url('images/header.png') 0 0 repeat-x; padding-left: 10px;}
+#logo { font-size:200%; color:#fff; margin:10px 0 0; font-weight:bold; line-height:1.7;}
+p, body, td { font-family: Verdana, Geneva, sans-serif; font-size: 10pt; }
+body { padding: 0px; margin: 0px; background-color: #ffffff; }
+a { color: #1155a3; }
+#Label1 {margin-left:150px; }
+
+#Div1
+{
+    width:100%;
+    height:40px;
+    background-color:#2F4050;
+    }
+    
+    .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: RoyalBlue;
+}
+.navbar {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+
+.glyphicon.glyphicon-trash
+
+{
+    
+    font-size: 30px;
+    }
+
+
+#ProjectForm
+{
+ padding-top:45px;   
+    }
+    
+    
+    li
+    {
+        padding-left:30px;
+        }
+        
+    
+    
+    
+    
+    /* This is communication panel css*/
+    .comment-wrapper .panel-body {
+    max-height:650px;
+    overflow:auto;
+}
+
+.comment-wrapper .media-list .media img {
+    width:64px;
+    height:64px;
+    border:2px solid #e5e7e8;
+}
+
+.comment-wrapper .media-list .media {
+    border-bottom:1px dashed #efefef;
+    margin-bottom:25px;
+}
+
+
+
+
+
+.file-field.big .file-path-wrapper {
+  height: 3.2rem; }
+  .file-field.big .file-path-wrapper .file-path {
+    height: 3rem; } 
+    
+    
+    .custom 
+    {
+       
+    Height: 30px;
+}     
+
