@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -1119,7 +1120,6 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Project.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="AddUser.aspx" />
     <Content Include="ViewUser.aspx" />
@@ -1129,6 +1129,7 @@
     <Content Include="ViewTasks.aspx" />
     <Content Include="ViewTaskDescription.aspx" />
     <Content Include="AddMoreAttach.aspx" />
+    <Content Include="Project.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Index.Master.cs">
@@ -1140,13 +1141,6 @@
     </Compile>
     <Compile Include="pmsDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Project.aspx.cs">
-      <DependentUpon>Project.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Project.aspx.designer.cs">
-      <DependentUpon>Project.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1209,6 +1203,13 @@
     </Compile>
     <Compile Include="AddMoreAttach.aspx.designer.cs">
       <DependentUpon>AddMoreAttach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Project.aspx.cs">
+      <DependentUpon>Project.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Project.aspx.designer.cs">
+      <DependentUpon>Project.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

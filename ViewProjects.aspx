@@ -15,7 +15,7 @@
         <th>DeadLine</th>        
         <th>Total Days</th>
         <th>Project Description</th>
-        <th>Current Status</th>
+        <th>Progress</th>
         <th>Completed</th>
         <th>Assign To</th>
         <th>View Tasks</th>

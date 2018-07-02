@@ -1,74 +1,68 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Index.Master" AutoEventWireup="true" CodeBehind="Project.aspx.cs" Inherits="ProjectManagmentSystem.WebForm1" %>
+
+
+<%@ Register Assembly="System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+    Namespace="System.Web.UI.DataVisualization.Charting" TagPrefix="asp" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
-<%--<%if ("session["User_Type"].equal(Admin)") {%>--%>
 
-  <div class="container">
-      <!-- Small boxes (Stat box) -->
-      <div class="row">
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-aqua">
-            <div class="inner">
-              <h3>150</h3>
 
-              <h5>New Orders</h5>
-            </div>
-            <div class="icon">
-              <i class="ion ion-bag"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-green">
-            <div class="inner">
-              <h3>53<sup style="font-size: 20px">%</sup></h3>
 
-              <h5>Bounce Rate</h5>
-            </div>
-            <div class="icon">
-              <i class="ion ion-stats-bars"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-yellow">
-            <div class="inner">
-              <h3>44</h3>
 
-              <h5>User Registrations</h5>
-            </div>
-            <div class="icon">
-              <i class="ion ion-person-add"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-          <!-- small box -->
-          <div class="small-box bg-red">
-            <div class="inner">
-              <h3>65</h3>
+<div class="container">
 
-              <h5>Unique Visitors</h5>
-            </div>
-            <div class="icon">
-              <i class="ion ion-pie-graph"></i>
-            </div>
-            <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-          </div>
-        </div>
-        <!-- ./col -->
-      </div>
+
+   <table style="font-family: Arial">
+<tr>
+    <td>
+        <b>Select Chart Type:</b>
+    </td>
+    <td>
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+       <asp:DropDownList ID="DropDownList1" AutoPostBack="true" runat="server"
+            OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+        </asp:DropDownList>  
+  </button>
+  
   </div>
+    
+    
+    </td>
+</tr>
+
+<tr>
+    <td colspan="2">
+        <asp:Chart ID="Chart1" runat="server" Width="550px">
+            <Titles>
+                <asp:Title Text="Projects progress">
+                </asp:Title>
+            </Titles>
+            <Series>
+                <asp:Series Name="Series1" ChartArea="ChartArea1" ChartType="Pie">
+     
+                </asp:Series>
+            </Series>
+            <ChartAreas>
+                <asp:ChartArea Name="ChartArea1">
+                    <AxisX Title="Project Name">
+                    </AxisX>
+                    <AxisY Title="Total Progress">
+                    </AxisY>
+                </asp:ChartArea>
+            </ChartAreas>
+        </asp:Chart>
+    </td>
+</tr>
+</table>
+
+
+
+
+
+</div>
 
 
 </asp:Content>
