@@ -53,7 +53,7 @@
 
     
     <div class="form-group"> 
-		<label class="control-label " for="CurrentStatus">Current Status</label>
+		<label class="control-label " for="CurrentStatus">Progress</label>
         <asp:TextBox ID="txtCurrentStatus" runat="server" class="form-control"></asp:TextBox>
 	</div>
 

@@ -84,11 +84,11 @@ namespace ProjectManagmentSystem
             }
         }
 
-        public string InsertProject_tbl(string Project_Title, string StartDate, string EndDate, string Project_Description, string mem_id, string CurrentStatus, string P_Complete)
+        public string InsertProject_tbl(string Project_Title, string StartDate, string EndDate, string Project_Description, string mem_id, string P_Complete, string Progress)
         {
             
             mySqlConn.Open();
-            SqlCommand cmd = new SqlCommand("insert into Project_tbl(Project_Title,StartDate,EndDate,Project_Description,Mem_id,CurrentStatus,P_Complete) VALUES('" + Project_Title + "','" + StartDate + "','"+EndDate+"','"+Project_Description+"','"+mem_id+"','"+CurrentStatus+"','"+P_Complete+"')",mySqlConn);
+            SqlCommand cmd = new SqlCommand("insert into Project_tbl(Project_Title,StartDate,EndDate,Project_Description,Mem_id,P_Complete,Progress) VALUES('" + Project_Title + "','" + StartDate + "','" + EndDate + "','" + Project_Description + "','" + mem_id + "','" + P_Complete + "','" + Progress + "')", mySqlConn);
                         
             try
             {
@@ -96,9 +96,9 @@ namespace ProjectManagmentSystem
                 mySqlConn.Close();
                 return "1";
             }
-            catch (Exception) {
+            catch (Exception ex) {
                 mySqlConn.Close();
-                return "0";
+                return ex.Message;
             }
 
 

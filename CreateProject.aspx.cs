@@ -33,7 +33,7 @@ namespace ProjectManagmentSystem
         protected void SubmitProject_Click(object sender, EventArgs e)
         {
 
-            dbClass.InsertProject_tbl(txtProjectTitle.Text,txtStartDate.Text, txtEndDate.Text, txtDescription.Text, DropDownList1.SelectedItem.Value, txtCurrentStatus.Text, txtCompleted.Text);        
+            dbClass.InsertProject_tbl(txtProjectTitle.Text,txtStartDate.Text, txtEndDate.Text, txtDescription.Text, DropDownList1.SelectedItem.Value, txtCompleted.Text,txtCurrentStatus.Text);        
         }
 
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
