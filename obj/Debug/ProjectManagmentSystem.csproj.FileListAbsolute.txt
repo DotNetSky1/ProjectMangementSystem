@@ -7,3 +7,10 @@ E:\ProjectManagmentSystem\ProjectManagmentSystem\bin\ProjectManagmentSystem.pdb
 E:\ProjectManagmentSystem\ProjectManagmentSystem\obj\Debug\ProjectManagmentSystem.dll
 E:\ProjectManagmentSystem\ProjectManagmentSystem\obj\Debug\ProjectManagmentSystem.pdb
 E:\ProjectManagmentSystem\ProjectManagmentSystem\obj\Debug\ProjectManagmentSystem.csprojResolveAssemblyReference.cache
+E:\ProjectManagmentSystem\ProjectManagmentSystem\bin\DayPilot.xml
+E:\OLD PMS\ProjectManagmentSystem\ProjectManagmentSystem\bin\ProjectManagmentSystem.dll
+E:\OLD PMS\ProjectManagmentSystem\ProjectManagmentSystem\bin\ProjectManagmentSystem.pdb
+E:\OLD PMS\ProjectManagmentSystem\ProjectManagmentSystem\bin\DayPilot.xml
+E:\OLD PMS\ProjectManagmentSystem\ProjectManagmentSystem\obj\Debug\ProjectManagmentSystem.csprojResolveAssemblyReference.cache
+E:\OLD PMS\ProjectManagmentSystem\ProjectManagmentSystem\obj\Debug\ProjectManagmentSystem.dll
+E:\OLD PMS\ProjectManagmentSystem\ProjectManagmentSystem\obj\Debug\ProjectManagmentSystem.pdb

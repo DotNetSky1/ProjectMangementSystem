@@ -17,9 +17,9 @@
 					<div class="wrap-input100 validate-input m-t-85 m-b-35">
 						<%--<input class="input100" type="text" name="username">--%>
 						
-                        <input type="text" id="membershipno" value="" class="input100" style="border:1px solid black">
+                     <%--   <input type="text" id="membershipno" value="" class="input100" style="border:1px solid black">--%>
 
-                        <asp:TextBox ID="TextBox1" runat="server" class="input100"></asp:TextBox>
+                        <asp:TextBox ID="TextBox1"  runat="server" class="input100"></asp:TextBox>
                         <span class="focus-input100" data-placeholder=""></span>
 
 					</div>

@@ -1,6 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Index.Master" AutoEventWireup="true" CodeBehind="Project.aspx.cs" Inherits="ProjectManagmentSystem.WebForm1" %>
 
-
 <%@ Register Assembly="System.Web.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
     Namespace="System.Web.UI.DataVisualization.Charting" TagPrefix="asp" %>
 
@@ -13,19 +12,21 @@
 
 <div class="container">
 
+<div class="row">
 
+<div class="col-lg-6 col-md-6">
    <table style="font-family: Arial">
 <tr>
     <td>
-        <b>Select Chart Type:</b>
+        <h5>Select Chart Type:</h5>
     </td>
     <td>
     <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  
        <asp:DropDownList ID="DropDownList1" AutoPostBack="true" runat="server"
             OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
         </asp:DropDownList>  
-  </button>
+  
   
   </div>
     
@@ -41,7 +42,7 @@
                 </asp:Title>
             </Titles>
             <Series>
-                <asp:Series Name="Series1" ChartArea="ChartArea1" ChartType="Pie">
+                <asp:Series Name="Series1" ChartArea="ChartArea1" ChartType="Column">
      
                 </asp:Series>
             </Series>
@@ -51,6 +52,7 @@
                     </AxisX>
                     <AxisY Title="Total Progress">
                     </AxisY>
+                    <Area3DStyle Enable3D="True" WallWidth="10"></Area3DStyle>
                 </asp:ChartArea>
             </ChartAreas>
         </asp:Chart>
@@ -59,8 +61,13 @@
 </table>
 
 
+</div>
+<div class="col-lg-6 col-md-6">
+<h1>Calender</h1>
 
 
+</div>
+</div>
 
 </div>
 
