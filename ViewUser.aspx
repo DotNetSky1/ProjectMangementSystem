@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
 
-<div class="container">      
+
 <input class="form-control m-t-60" id="myInput" type="text" placeholder="Search..">
   <br>  
   <table class="table table-hover  table-striped" id="tbl1">
@@ -29,7 +29,7 @@
        
     </tbody>
   </table>
-</div>
+
 
 
 

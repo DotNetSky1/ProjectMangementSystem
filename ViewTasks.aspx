@@ -3,9 +3,9 @@
 
 
 
-<div class="container">
+
 <div class="row">
-<div class="col-lg-4">
+
   <table class="table table-hover">
   <thead>
   <tr>
@@ -18,10 +18,7 @@
   </tbody>
   </table>
   </div>
-  </div>
-</div>
-
-<div class="container">        
+    
 <input class="form-control m-t-60" id="myInput" type="text" placeholder="Search..">
   <br>
   <table class="table table-hover table-striped">
@@ -43,7 +40,6 @@
        </tr>
     </tbody>
   </table>
-</div>
 
 
 

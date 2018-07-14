@@ -1,9 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Index.Master" AutoEventWireup="true" CodeBehind="AddUser.aspx.cs" Inherits="ProjectManagmentSystem.WebForm3" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-<div class="signup-form">
+
     <form>
-		<h2>Create User</h2>
+		<h2>Create User</h2><br />
 		<%--<p class="hint-text">Create your account. It's free and only takes a minute.</p>--%>
         <div class="form-group">
 		<div class="input-group">
@@ -76,8 +76,7 @@
 		<div class="form-group">            
             <asp:Button ID="Add" runat="server" Text="Add User" 
                 class="btn btn-success btn-lg btn-block" onclick="Button1_Click"/>
-        </div>    
-    </form>
+            </form>
 
 </div>
 

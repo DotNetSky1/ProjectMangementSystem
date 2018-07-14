@@ -2,7 +2,7 @@
     CodeBehind="ViewTaskDescription.aspx.cs" Inherits="ProjectManagmentSystem.WebForm6" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container">
+    
         <br />
         <br />
         <table class="table">
@@ -47,9 +47,9 @@
                 </td>
             </tr>
         </table>
-    </div>
+    
     <br />
-    <div class="container">
+    
         <div class="row bootstrap snippets">
             <div class="col-md-6 col-lg-12 col-sm-12">
                 <div class="comment-wrapper">
@@ -88,5 +88,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 </asp:Content>

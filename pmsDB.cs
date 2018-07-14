@@ -226,10 +226,10 @@ namespace ProjectManagmentSystem
             }
         }
 
-        public string DeleteMember_tbl(string Mem_id)
+        public string DeleteMember_tbl(string uID)
         {
             mySqlConn.Open();
-            SqlCommand cmd = new SqlCommand("delete from Member_tbl where Mem_id='" + Mem_id + "'", mySqlConn);
+            SqlCommand cmd = new SqlCommand("delete from Member_tbl where uID='" + uID + "'", mySqlConn);
             try
             {
                 cmd.ExecuteNonQuery();

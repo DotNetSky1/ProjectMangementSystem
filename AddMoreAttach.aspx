@@ -5,14 +5,13 @@
 
     
 
-<div class="container">
+
   <h2>Add Multiple Attachments</h2>
   <div class="panel panel-default">
     <div class="panel-heading"><b>Upload</b></div>
     <div class="panel-body">
       
     </div>
-  </div>
 </div>
 
 
