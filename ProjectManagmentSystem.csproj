@@ -177,6 +177,7 @@
     <Content Include="dist\js\demo.js" />
     <Content Include="dist\js\pages\dashboard.js" />
     <Content Include="dist\js\pages\dashboard2.js" />
+    <Content Include="dist\PMS.png" />
     <Content Include="documentation\build\include\adminlte-options.html" />
     <Content Include="documentation\build\include\advice.html" />
     <Content Include="documentation\build\include\browsers.html" />
@@ -221,6 +222,7 @@
     <Content Include="imagesz\PS2.jpg" />
     <Content Include="imagesz\puppy.jpg" />
     <Content Include="imagesz\Tulips.jpg" />
+    <Content Include="images\3.jpg" />
     <Content Include="images\avatar-01.jpg" />
     <Content Include="images\header-in.png" />
     <Content Include="images\header.png" />

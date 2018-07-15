@@ -13,9 +13,27 @@ namespace ProjectManagmentSystem
     {
         SqlConnection mySqlConn = new SqlConnection(ConfigurationManager.ConnectionStrings["Conn"].ConnectionString);
 
-   
+        public bool AuthenticateUser(string username, string password)
+        {
+            string CS = ConfigurationManager.ConnectionStrings["Conn"].ConnectionString;
+            using (SqlConnection con = new SqlConnection(CS))
+            {
+                SqlCommand cmd = new SqlCommand("spAuthenticateUser", con);
+                cmd.CommandType = CommandType.StoredProcedure;
+                SqlParameter paramUsername = new SqlParameter("@Mem_Name", username);
+                SqlParameter paramPassword = new SqlParameter("@Mem_Pwd", password);
+                cmd.Parameters.Add(paramUsername);
+                cmd.Parameters.Add(paramPassword);
+
+                con.Open();
+                int ReturnCode = (int)cmd.ExecuteScalar();
+                return ReturnCode == 1;
+            }
+        }
         //Login 
+      
         public string Login(string UserName, string Password)
+
         {
             mySqlConn.Open();
             SqlCommand cmd = new SqlCommand("Select * from Member_tbl where Mem_id='" + UserName + "'and Mem_pwd='"+Password+"'");           

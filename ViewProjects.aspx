@@ -3,9 +3,13 @@
 
 
 
- <input class="form-control m-t-60" id="myInput" type="text" placeholder="Search.." >
+
   <br />
-  <table class="table table-hover  table-striped">
+  <div class="box">
+            
+            <!-- /.box-header -->
+            <div class="box-body">
+              <table id="example1" class="table table-bordered table-striped table-hover">  
     <thead>
    
       
@@ -22,12 +26,14 @@
         <th>Delete</th>
       </tr>
     </thead>
-    <tbody id="myTable">
+    <tbody>
    <H2>Projects</H2>
        <asp:Label ID="lblViewProject" runat="server" Text=""></asp:Label> 
              
     </tbody>
-  </table>
+  </table></div>
+  </div>
+
 
 
  

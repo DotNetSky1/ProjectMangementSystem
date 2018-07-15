@@ -19,14 +19,14 @@
 						
                      <%--   <input type="text" id="membershipno" value="" class="input100" style="border:1px solid black">--%>
 
-                        <asp:TextBox ID="TextBox1"  runat="server" class="input100"></asp:TextBox>
+                        <asp:TextBox ID="txtUserName"  runat="server" class="input100"></asp:TextBox>
                         <span class="focus-input100" data-placeholder=""></span>
 
 					</div>
 
 					<div class="wrap-input100 validate-input m-b-50" data-validate="Enter password">
 				
-                           <asp:TextBox ID="TextBox2" runat="server" class="input100"></asp:TextBox>
+                           <asp:TextBox ID="txtPassword" runat="server" class="input100"></asp:TextBox>
 						<span class="focus-input100" data-placeholder=""></span>
 					</div>
 
@@ -34,10 +34,12 @@
 
                     <div class="container-login100-form-btn">
 						
-					<asp:Button ID="Button1"  class="login100-form-btn" runat="server" Text="Login" 
+					<asp:Button ID="Button1" class="login100-form-btn"  runat="server" Text="Login" 
                             onclick="Button1_Click" />
-						
-					</div>				
+						<%----%>
+					</div>
+                <p><asp:CheckBox ID="CheckBoxRemember" runat="server" /> Remeber me!</p>
+                <asp:Label ID="lblMessage" runat="server" Text="" ForeColor="Red"></asp:Label>
 				</form>
 			</div>
 		</div>

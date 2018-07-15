@@ -11,7 +11,7 @@ namespace ProjectManagmentSystem
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Labelx.Text += "" + Session["User_Type"] + "";
+            Labelx.Text += "" + Session["Mem_Name"] + "";
           
         }
        

@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Index.Master" AutoEventWireup="true" CodeBehind="CreateProject.aspx.cs" Inherits="ProjectManagmentSystem.WebForm5" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-<div class="container" id="ProjectForm">
+<div  id="ProjectForm">
 <form>
 
 	<div class="form-group">

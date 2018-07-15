@@ -88,7 +88,7 @@
   <!-- bootstrap wysihtml5 - text editor -->
   <link rel="stylesheet" href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
 
-
+  <link rel="stylesheet" href="plugins/datatables/dataTables.bootstrap.css">
 
 
   <%--
@@ -130,8 +130,23 @@
 <script type="text/javascript" src="dist/js/pages/dashboard.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script type="text/javascript" src="dist/js/demo.js"></script>
-
-
+<!-- DataTables -->
+<script src="plugins/datatables/jquery.dataTables.min.js"></script>
+<script src="plugins/datatables/dataTables.bootstrap.min.js"></script>
+<!-- page script -->
+<script>
+    $(function () {
+        $("#example1").DataTable();
+        $('#example2').DataTable({
+            "paging": true,
+            "lengthChange": false,
+            "searching": false,
+            "ordering": true,
+            "info": true,
+            "autoWidth": false
+        });
+    });
+</script>
 
 </head>
 
@@ -193,6 +208,7 @@
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#"></a>
+      <img src="dist/PMS.png" height="55px" alt="myImg">
     </div>
     <ul class="nav navbar-nav">
   
@@ -203,12 +219,13 @@
     
     </ul>
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a href="AddUser.aspx"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="Login.aspx"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
   </div>
 </nav>
 </header>
+
 
 <div class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
