@@ -12,4 +12,3 @@ E:\ProjectManagmentSystem\ProjectManagmentSystem\bin\ProjectManagmentSystem.dll
 E:\ProjectManagmentSystem\ProjectManagmentSystem\bin\ProjectManagmentSystem.pdb
 E:\ProjectManagmentSystem\ProjectManagmentSystem\obj\Debug\ProjectManagmentSystem.dll
 E:\ProjectManagmentSystem\ProjectManagmentSystem\obj\Debug\ProjectManagmentSystem.pdb
-E:\ProjectManagmentSystem\ProjectManagmentSystem\obj\Debug\ProjectManagmentSystem.csprojResolveAssemblyReference.cache
