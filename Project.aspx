@@ -76,9 +76,63 @@
 </div>
 
 
-</div>
 
 </div>
+
+
+<div class="row">
+<div class="col-lg-6 col-md-6">
+  <div class="panel panel-success">
+    <div class="panel-heading">Send Email</div>
+    <div class="panel-body">
+    
+  
+     <div class="form-group">
+    <label for="exampleInputEmailTO">To:</label>
+    <asp:TextBox ID="EmailTo" class="form-control" placeholder="Enter Email" runat="server"></asp:TextBox>
+  </div>
+        
+
+  <div class="form-group">
+    <label for="exampleInputEmailFROM">From:</label>
+    <asp:TextBox ID="Emailfrom" class="form-control" placeholder="Enter Email" runat="server"></asp:TextBox>
+  </div>
+
+  <div class="form-group">
+    <label for="exampleInputEmailSUBJECT">Subject:</label>
+    <asp:TextBox ID="EmailSubject" runat="server" class="form-control"  placeholder="Enter Subject"></asp:TextBox>
+  </div>
+
+  <br />
+  <div class="form-group">
+    
+    <%--<textarea class="form-control" id="exampleFormControlTextarea1"  ></textarea>--%>
+      <asp:TextBox ID="EmailBody" class="form-control" placeholder="Email Body" TextMode="MultiLine" Rows="5" runat="server"></asp:TextBox>
+  </div>
+
+
+        <asp:Button ID="Button1" runat="server" Text="Send" class="btn btn-primary" 
+            onclick="Button1_Click"/>
+
+
+    
+    
+    
+    
+        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+
+
+    
+    
+    
+    
+    </div>
+  
+</div>
+</div>
+</div>
+</div>
+
 
 
 </asp:Content>

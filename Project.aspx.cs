@@ -9,6 +9,7 @@ using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Data.Sql;
+using System.Net.Mail;
 
 namespace ProjectManagmentSystem
 {
@@ -60,5 +61,24 @@ namespace ProjectManagmentSystem
             this.Chart1.Series["Series1"].ChartType = (SeriesChartType)Enum.Parse(
                 typeof(SeriesChartType), DropDownList1.SelectedValue);
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                MailMessage message = new MailMessage(EmailTo.Text, Emailfrom.Text, EmailSubject.Text, EmailBody.Text);
+                SmtpClient client = new SmtpClient("smtp.gmail.com",587);
+                client.EnableSsl = true;
+                client.Credentials = new System.Net.NetworkCredential("imranrizvi1992@gmail.com", "enterYourEmailandPassword");
+                client.Send(message);
+            }
+            catch (Exception ex)
+            {
+                Label1.Text = ex.StackTrace;
+            }
+            
+        }
+
+
     }
 }
